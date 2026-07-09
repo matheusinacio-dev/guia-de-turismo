@@ -1,0 +1,73 @@
+/* Reset CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* root CSS variables */
+:root {
+  /* background */
+  --bg-default: #f5f4f0;
+
+  /* border */
+  --border-primary: #d9d9d9;
+
+  /* text */
+  --text-headline: #e1624f;
+  --text-primary: #1b1b1b;
+  --text-secondary: #333;
+  --text-tertiary: #696969;
+
+  /* accent */
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e524e5;
+  --accent-purple: #591b98;
+}
+
+/* font-family */
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* style classes */
+/* font colors */
+.headline {
+  color: var(--text-headline);
+}
+.secondary-text {
+  color: var(--text-primary);
+}
+.body-text {
+  color: var(--text-secondary);
+}
+
+/* body background-color */
+body {
+  background: var(--bg-default);
+}
+
+/* main-continer */
+#main-container {
+  width: 1120px;
+
+  border: 1px solid red;
+}
+
+/* images */
+/* percentual - 100% é relativo ao tamanho do parent - nesse caso #main-container */
+#main-img {
+  width: 100%;
+  height: 660px;
+
+  border-radius: 1em;
+}
+
+.turism-recommendations {
+  width: 100%;
+  height: 350px;
+
+  border-radius: 1em;
+}
