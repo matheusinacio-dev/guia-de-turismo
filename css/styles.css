@@ -36,6 +36,7 @@ html {
 /* font colors */
 .headline {
   color: var(--text-headline);
+  text-decoration: underline 3px;
 }
 .secondary-text {
   color: var(--text-primary);
@@ -53,7 +54,16 @@ body {
 #main-container {
   width: 1120px;
 
-  border: 1px solid red;
+  /* debug */
+  /* border: 1px solid red; */
+
+  /* posicionar e centralizar display block */
+  margin: 62px auto 163px;
+}
+
+/* section main-img-container - main-img + p */
+#main-img-container {
+  padding-block: 2.5em;
 }
 
 /* images */
@@ -63,6 +73,8 @@ body {
   height: 660px;
 
   border-radius: 1em;
+  /* contorno da imagem */
+  border: var(--text-headline) 3px solid;
 }
 
 .turism-recommendations {
@@ -70,4 +82,14 @@ body {
   height: 350px;
 
   border-radius: 1em;
+  /* contorno da imagem */
+  border: var(--text-headline) 3px solid;
+
+  /* spacing - porque margin? - pq o padding anula o border radius */
+  margin-block: 1.5em;
+}
+
+/* footer */
+#final-message {
+  padding-top: 2.5em;
 }
