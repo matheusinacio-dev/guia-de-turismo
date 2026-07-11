@@ -1,18 +1,23 @@
 # Guia de Turismo
+
 ## Descubra sobre a cidade turística de Busan na Coreia do Sul
 
 Esse projeto, feito em HTML e CSS apresenta ao usuário a cidade de Busan de modo convidativo. Buscando educar e promover turismo.
 
 Tal iniciativa surgiu de um exercício promovido pela Rocketseat, executado de acordo com a minha interpretação.
 
+### Tecnologias Utilizadas
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
 ### Prévia
 
-![Demo](assets/demo-guia-de-turismo.gif)
+![Prévia do projeto em GIF](assets/demo-guia-de-turismo.gif)
 
-### GitHub Pages - veja o projeto você mesmo!
+### Demo do projeto
 
-[GitHub Pages do Projeto](https://matheusinacio-dev.github.io/guia-de-turismo/)
-
+[Ver projeto ao vivo](https://matheusinacio-dev.github.io/guia-de-turismo/)
 
 ### Limitações atuais
 
