@@ -9,6 +9,11 @@ Tal iniciativa surgiu de um exercício promovido pela Rocketseat, executado de a
 
 ![Demo](assets/demo-guia-de-turismo.gif)
 
+### GitHub Pages - veja o projeto você mesmo!
+
+[GitHub Pages do Projeto](https://matheusinacio-dev.github.io/guia-de-turismo/)
+
+
 ### Limitações atuais
 
 Devido ao uso do display block e da ausência de @media queries, a interface ainda não apresenta nenhuma responsividade.
